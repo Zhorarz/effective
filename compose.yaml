@@ -1,6 +1,6 @@
 services:
   webback:
-    build: ./backend
+    build: ./Backend
     container_name: webback
     expose:
       - "8080"
